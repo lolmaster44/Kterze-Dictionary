@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kterze Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Kterze Dictionary</h1>
+    <div id="search-container">
+      <input id="search" placeholder="Search for a word..." />
+    </div>
+    <div id="word-count"></div>
+    <div id="dictionary"></div>
+    <script src="script.js"></script>
+    <button id="topBtn" title="Go to top">↑</button>
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        const topBtn = document.getElementById("topBtn");
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          topBtn.style.display = "block";
+        } else {
+          topBtn.style.display = "none";
+        }
+      }
+      document.getElementById("topBtn").addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+  </body>
+</html>
