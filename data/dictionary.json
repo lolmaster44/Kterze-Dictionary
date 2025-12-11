@@ -2575,7 +2575,8 @@
   "ety": "From Basramo <strong>ikuno</strong> (a window)",
   "notes": [],
   "senses": [
-    { "def": "A window", "eg": [] }
+    { "def": "A window", "eg": [] },
+    { "def": "(of glasses) A lens", "eg": [] }
   ]
 },
 {
@@ -9547,13 +9548,13 @@
   ]
 },
 {
-  "word": "z",
-  "ipa": "",
+  "word": "Flish",
+  "ipa": "[flɪʃ]",
   "ety": "",
   "notes": [""],
   "senses": [
     {
-      "def": "",
+      "def": "(Kuttari English) Fish",
       "eg": []
     }
   ]
